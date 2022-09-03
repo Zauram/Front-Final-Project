@@ -464,14 +464,14 @@ ol {
     }
 }
 
-/* main section */
-.main {
+/* section1 section */
+.section1 {
     position: relative;
     background-color: #fff;
     padding: 220px 0 160px 0;
 }
 
-.main .circle1 {
+.section1 .circle1 {
     top: -98px;
     right: calc(50% - 1180px);
     width: 1000px;
@@ -482,7 +482,7 @@ ol {
     z-index: 1;
 }
 
-.main .circle2 {
+.section1 .circle2 {
     right: calc(50% - 270px);
     bottom: -75px;
     z-index: 2;
@@ -493,7 +493,7 @@ ol {
     border-radius: 50%;
 }
 
-.main .circle3 {
+.section1 .circle3 {
     top: -180px;
     left: -180px;
     width: 350px;
@@ -503,7 +503,7 @@ ol {
     border-radius: 50%;
 }
 
-.main .circle4 {
+.section1 .circle4 {
     top: 44%;
     left: 30px;
     width: 48px;
@@ -513,14 +513,14 @@ ol {
     border-radius: 50%;
 }
 
-.main .main-img {
+.section1 .section1-img {
     z-index: 4;
     position: relative;
     box-shadow: 0px 0px 30px #0000000f;
     border-radius: 20px;
 }
 
-.main .main-img .circle5 {
+.section1 .section1-img .circle5 {
     top: -45px;
     left: -45px;
     width: 110px;
@@ -531,14 +531,14 @@ ol {
     z-index: -1;
 }
 
-.main .main-content {
+.section1 .section1-content {
     border-radius: 0;
     position: relative;
     z-index: 1;
     text-align: left;
 }
 
-.main .main-content h1 {
+.section1 .section1-content h1 {
     font-weight: 700;
     margin-bottom: 18px;
     font-size: 38px;
@@ -547,11 +547,11 @@ ol {
     color: #151515;
 }
 
-.main .main-content h1 span.orange {
+.section1 .section1-content h1 span.orange {
     color: #fd723b;
 }
 
-.main .main-content p {
+.section1 .section1-content p {
     font-weight: 400;
     color: #313131;
     line-height: 28px;
@@ -559,7 +559,7 @@ ol {
     font-size: 16px;
 }
 
-.main .main-content .button {
+.section1 .section1-content .button {
     margin-top: 30px;
 }
 
@@ -586,60 +586,60 @@ ol {
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .main {
+    .section1 {
         padding: 110px 0 60px 0;
     }
 
-    .main .circle1 {
+    .section1 .circle1 {
         display: none;
     }
 
-    .main .circle2 {
+    .section1 .circle2 {
         display: none;
     }
 
-    .main .circle3 {
+    .section1 .circle3 {
         display: none;
     }
 
-    .main .circle4 {
+    .section1 .circle4 {
         display: none;
     }
 
-    .main .main-img {
+    .section1 .section1-img {
         margin-top: 40px;
     }
 
-    .main .main-img .circle5 {
+    .section1 .section1-img .circle5 {
         display: none;
     }
 
-    .main .main-content .button {
+    .section1 .section1-content .button {
         margin-top: 10px;
         width: 100%;
     }
 
-    .main .main-content .button .btn {
+    .section1 .section1-content .button .btn {
         width: 100%;
     }
 
-    .main .main-content {
+    .section1 .section1-content {
         padding: 0 10px;
         text-align: center;
     }
 
-    .main .main-content h1 {
+    .section1 .section1-content h1 {
         font-size: 24px;
         line-height: 32px;
     }
 
-    .main .main-content p {
+    .section1 .section1-content p {
         margin-top: 15px;
         font-size: 15px;
         line-height: 26px;
     }
 
-    .main .main-content .button .btn {
+    .section1 .section1-content .button .btn {
         width: 60%;
         margin: 0 0 7px 0;
     }
