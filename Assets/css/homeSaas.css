@@ -1111,12 +1111,12 @@ ol {
 }
 
 
-/* achievement section */
-.achievement .single-achievement {
+/* section6 section */
+.section6 .single-achievement {
     text-align: center;
 }
 
-.achievement .single-achievement h3 {
+.section6 .single-achievement h3 {
     font-size: 32px;
     font-weight: 700;
     position: relative;
@@ -1124,7 +1124,7 @@ ol {
     display: inline-block;
 }
 
-.achievement .single-achievement h3 .shape {
+.section6 .single-achievement h3 .shape {
     position: absolute;
     left: -20px;
     top: -15px;
@@ -1137,21 +1137,21 @@ ol {
     color: #151515;
 }
 
-.achievement .row .row {
+.section6 .row .row {
     margin: 0 auto;
 }
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .achievement .single-achievement {
+    .section6 .single-achievement {
         padding: 20px 0;
     }
 
-    .achievement .single-achievement h3 {
+    .section6 .single-achievement h3 {
         font-size: 26px;
     }
 
-    .achievement .single-achievement p {
+    .section6 .single-achievement p {
         margin-top: 10px;
     }
 }
