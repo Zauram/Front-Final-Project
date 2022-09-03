@@ -872,14 +872,14 @@ ol {
     }
 }
 
-/* about section */
-.about {
+/* section4 section */
+.section4 {
     position: relative;
     background-color: #151515;
     z-index: 0;
 }
 
-.about .fig-1 {
+.section4 .partLeft {
     position: absolute;
     width: 520px;
     height: 520px;
@@ -888,13 +888,13 @@ ol {
     z-index: -1;
 }
 
-.about .fig-1 img {
+.section4 .partLeft img {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.about .fig-2 {
+.section4 .partRight {
     position: absolute;
     width: 665px;
     height: 665px;
@@ -903,42 +903,42 @@ ol {
     z-index: -1;
 }
 
-.about .fig-2 img {
+.section4 .partRight img {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.about img {
+.section4 img {
     width: 100%;
 }
 
-.about .content h4 {
+.section4 .content h4 {
     color: #3080E3;
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 500;
 }
 
-.about .content h2 {
+.section4 .content h2 {
     font-size: 35px;
     color: #fff;
     font-weight: 700;
     line-height: 48px;
 }
 
-.about .content p {
+.section4 .content p {
     font-size: 16px;
     margin-top: 25px;
     color: #fff;
 }
 
-.about .content .action-button {
+.section4 .content .action-button {
     margin-top: 50px;
     display: flex;
 }
 
-.about .content .action-button .btn-icon {
+.section4 .content .action-button .btn-icon {
     height: 44px;
     width: 44px;
     line-height: 44px;
@@ -950,7 +950,7 @@ ol {
     font-size: 20px;
 }
 
-.about .content .action-button h4 {
+.section4 .content .action-button h4 {
     display: inline-block;
     color: #fff;
     font-size: 16px;
@@ -958,18 +958,18 @@ ol {
     color: #fff;
 }
 
-.about .content .action-button h4 a {
+.section4 .content .action-button h4 a {
     color: #3080E3;
     display: block;
     font-size: 15px;
     margin-top: 3px;
 }
 
-.about .content .action-button h4 a:hover {
+.section4 .content .action-button h4 a:hover {
     letter-spacing: 1px;
 }
 
-.about .content .action-button h4 a i {
+.section4 .content .action-button h4 a i {
     display: inline-block;
     position: relative;
     top: 3px;
@@ -980,11 +980,11 @@ ol {
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .about .content {
+    .section4 .content {
         margin-bottom: 50px;
     }
 
-    .about .content h2 {
+    .section4 .content h2 {
         font-weight: 700;
         line-height: 34px;
         font-size: 24px;
