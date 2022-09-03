@@ -653,7 +653,7 @@ ol {
 }
 
 /* service section  */
-.services {
+.section2 {
     background-color: #F4F7FA;
 }
 
@@ -695,7 +695,7 @@ ol {
     line-height: 26px;
 }
 
-.services .section-title {
+.section2 .section-title {
     margin-bottom: 50px;
 }
 
@@ -793,7 +793,7 @@ ol {
         font-size: 15px;
     }
 
-    .services .section-title {
+    .section2 .section-title {
         margin-bottom: 30px;
     }
 }
