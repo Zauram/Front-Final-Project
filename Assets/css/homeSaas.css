@@ -63,7 +63,7 @@ ol {
     color: #fff;
 }
 
-.navbar-field {
+.navbar-area {
     width: 100%;
     z-index: 99;
     transition: all 0.3s ease-out;
@@ -238,7 +238,7 @@ ol {
 }
 
 
-/* when max width 768px then create custom hamburger . and focus */
+/* up to 768px => qamburger sign + focus */
 
 .mobile-menu-btn .toggler-icon {
     width: 30px;
@@ -264,7 +264,7 @@ ol {
     transform: rotate(135deg);
 }
 
-/* remove background :transparent;  add sticky class*/
+/* add background color and stick to top*/
 .sticky {
     position: fixed;
     z-index: 99;
@@ -294,7 +294,7 @@ ol {
     background: #333;
 }
 
-.navbar-field.sticky {
+.navbar-area.sticky {
     position: fixed;
     transition: all 0.3s ease-out;
     z-index: 99;
@@ -322,7 +322,7 @@ ol {
 
 
 
-/* for mobile devices */
+/* telefon olcusu */
 
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -584,7 +584,7 @@ ol {
     background-color: #fd723b;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .main {
         padding: 110px 0 60px 0;
@@ -768,7 +768,7 @@ ol {
     color: #FFA842;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 767px) {
     .section {
         padding: 60px 0;
@@ -865,7 +865,7 @@ ol {
     margin: 0;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .process .content {
         margin-top: 50px;
@@ -978,7 +978,7 @@ ol {
 }
 
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .about .content {
         margin-bottom: 50px;
@@ -1096,7 +1096,7 @@ ol {
 }
 
 
-/* for mobile devices */
+/* telefon olcusu */
 
 @media (max-width: 768px) {
     .pricing-table .section-title {
@@ -1141,7 +1141,7 @@ ol {
     margin: 0 auto;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .achievement .single-achievement {
         padding: 20px 0;
@@ -1257,7 +1257,7 @@ ol {
     font-weight: 400;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .testimonials {
         padding-bottom: 120px;
@@ -1367,7 +1367,7 @@ ol {
 }
 
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .blog-section .section-title {
         margin-bottom: 20px;
@@ -1425,7 +1425,7 @@ ol {
     background-color: #151515 !important;
 }
 
-/* for mobile devices */
+/* telefon olcusu */
 @media (max-width: 768px) {
     .call-action .inner-content {
         padding: 30px;

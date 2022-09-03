@@ -1,5 +1,5 @@
 window.onscroll = function () {
-    var header = document.querySelector(".navbar-field");
+    var header = document.querySelector(".navbar-area");
     var sticky = header.offsetTop;
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
