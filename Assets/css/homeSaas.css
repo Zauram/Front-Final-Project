@@ -991,16 +991,16 @@ ol {
     }
 }
 
-/* pricing section */
-.pricing-table {
+/* section5 section */
+.section5-table {
     background-color: #F4F7FA;
 }
 
-.pricing-table .section-title {
+.section5-table .section-title {
     margin-bottom: 50px;
 }
 
-.pricing-table .single-table {
+.section5-table .single-table {
     border: 1px solid #eee;
     z-index: 0;
     border-radius: 10px;
@@ -1011,16 +1011,16 @@ ol {
     text-align: center;
 }
 
-.pricing-table .single-table:hover {
+.section5-table .single-table:hover {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.048);
 }
 
-.pricing-table .single-table.middle .table-head .title {
+.section5-table .single-table.middle .table-head .title {
     border-color: #fd723b;
     color: #fd723b;
 }
 
-.pricing-table .single-table .table-head .title {
+.section5-table .single-table .table-head .title {
     border: 2px solid #3080e3;
     font-size: 15px;
     font-weight: 500;
@@ -1031,16 +1031,16 @@ ol {
     border-radius: 30px;
 }
 
-.pricing-table .single-table .table-head p {
+.section5-table .single-table .table-head p {
     font-weight: 400;
 }
 
-.pricing-table .single-table .table-head .price {
+.section5-table .single-table .table-head .price {
     padding-top: 30px;
     color: #151515;
 }
 
-.pricing-table .single-table .table-head .price .amount {
+.section5-table .single-table .table-head .price .amount {
     position: relative;
     font-size: 45px;
     padding-left: 15px;
@@ -1048,7 +1048,7 @@ ol {
     display: inline-block;
 }
 
-.pricing-table .single-table .table-head .price .amount .currency {
+.section5-table .single-table .table-head .price .amount .currency {
     position: absolute;
     font-weight: 400;
     top: 6px;
@@ -1057,7 +1057,7 @@ ol {
     font-size: 17px;
 }
 
-.pricing-table .single-table .table-head .price .amount .duration {
+.section5-table .single-table .table-head .price .amount .duration {
     margin-left: 3px;
     display: inline-block;
     font-size: 14px;
@@ -1065,11 +1065,11 @@ ol {
     font-weight: 400;
 }
 
-.pricing-table .single-table .button {
+.section5-table .single-table .button {
     margin: 30px 0 40px 0;
 }
 
-.pricing-table .single-table .button .btn {
+.section5-table .single-table .button .btn {
     text-transform: none;
     padding: 14px 35px;
 }
@@ -1085,13 +1085,13 @@ ol {
 }
 
 
-.pricing-table .single-table .table-content .table-list li {
+.section5-table .single-table .table-content .table-list li {
     position: relative;
     font-size: 15px;
     margin-bottom: 10px;
 }
 
-.pricing-table .single-table .table-content .table-list li:last-child {
+.section5-table .single-table .table-content .table-list li:last-child {
     margin: 0;
 }
 
@@ -1099,7 +1099,7 @@ ol {
 /* telefon olcusu */
 
 @media (max-width: 768px) {
-    .pricing-table .section-title {
+    .section5-table .section-title {
         margin-bottom: 20px;
     }
 
