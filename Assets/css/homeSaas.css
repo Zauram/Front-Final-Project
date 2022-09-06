@@ -464,7 +464,7 @@ ol {
     }
 }
 
-/* section1 section */
+/* section1 */
 .section1 {
     position: relative;
     background-color: #fff;
@@ -652,7 +652,7 @@ ol {
 
 }
 
-/* service section  */
+/* section2  */
 .section2 {
     background-color: #F4F7FA;
 }
@@ -798,7 +798,7 @@ ol {
     }
 }
 
-/* section3 section */
+/* section3 */
 .section3 img {
     width: 100%;
 }
@@ -872,7 +872,7 @@ ol {
     }
 }
 
-/* section4 section */
+/* section4 */
 .section4 {
     position: relative;
     background-color: #151515;
@@ -991,7 +991,7 @@ ol {
     }
 }
 
-/* section5 section */
+/* section5 */
 .section5-table {
     background-color: #F4F7FA;
 }
@@ -1111,7 +1111,7 @@ ol {
 }
 
 
-/* section6 section */
+/* section6 */
 .section6 .single-achievement {
     text-align: center;
 }
@@ -1157,18 +1157,18 @@ ol {
 }
 
 
-/* testimonial section */
-.testimonials {
+/* section7 */
+.section7 {
     background-color: #F4F7FA;
     position: relative;
     padding-bottom: 180px;
 }
 
-.testimonials .testimonial-slider {
+.section7 .testimonial-slider {
     margin: 0;
 }
 
-.testimonials .single-testimonial {
+.section7 .single-testimonial {
     position: relative;
     background-color: #fff;
     transition: all 0.4s ease;
@@ -1178,7 +1178,7 @@ ol {
 }
 
 
-.testimonials .owl-dots .owl-dot span {
+.section7 .owl-dots .owl-dot span {
     display: inline-block;
     height: 6px;
     width: 14px;
@@ -1189,29 +1189,29 @@ ol {
     transition: all 0.4s ease;
 }
 
-.testimonials .owl-dots button.owl-dot.active span {
+.section7 .owl-dots button.owl-dot.active span {
     width: 25px;
     background-color: #3080E3;
 }
 
-.testimonials .single-testimonial .shape1 {
+.section7 .single-testimonial .shape1 {
     position: absolute;
     left: 40px;
     top: 0;
 }
 
-.testimonials .single-testimonial .shape2 {
+.section7 .single-testimonial .shape2 {
     position: absolute;
     right: -20px;
     bottom: -20px;
 }
 
-.testimonials .single-testimonial .inner-content {
+.section7 .single-testimonial .inner-content {
     position: relative;
     z-index: 0;
 }
 
-.testimonials .single-testimonial .qote-icon {
+.section7 .single-testimonial .qote-icon {
     position: absolute;
     font-size: 70px;
     top: 0;
@@ -1221,20 +1221,20 @@ ol {
     right: 0;
 }
 
-.testimonials .single-testimonial .text h4 {
+.section7 .single-testimonial .text h4 {
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
     color: #151515;
 }
 
-.testimonials .single-testimonial .author {
+.section7 .single-testimonial .author {
     position: relative;
     padding-left: 70px;
     margin-top: 40px;
 }
 
-.testimonials .single-testimonial .author img {
+.section7 .single-testimonial .author img {
     position: absolute;
     left: 0;
     top: 0;
@@ -1243,13 +1243,13 @@ ol {
     border-radius: 50%;
 }
 
-.testimonials .single-testimonial .author h4 {
+.section7 .single-testimonial .author h4 {
     font-size: 17px;
     font-weight: 600;
     color: #151515;
 }
 
-.testimonials .single-testimonial .author h4 span {
+.section7 .single-testimonial .author h4 span {
     display: block;
     color: #3080E3;
     margin-top: 4px;
@@ -1259,32 +1259,32 @@ ol {
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .testimonials {
+    .section7 {
         padding-bottom: 120px;
     }
 
-    .testimonials .single-testimonial {
+    .section7 .single-testimonial {
         padding: 50px 40px;
     }
 
-    .testimonials .single-testimonial .text h4 {
+    .section7 .single-testimonial .text h4 {
         font-size: 15px;
         line-height: 28px;
     }
 
-    .testimonials .owl-dots {
+    .section7 .owl-dots {
         bottom: 55px;
     }
 }
 
 
 
-/* blog section */
-.blog-section {
+/* section8 */
+.section8 {
     background-color: #fff;
 }
 
-.blog-section .section-title {
+.section8 .section-title {
     margin-bottom: 50px;
 }
 
@@ -1369,17 +1369,17 @@ ol {
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .blog-section .section-title {
+    .section8 .section-title {
         margin-bottom: 20px;
     }
 }
 
-/* call section */
-.call-action {
+/* section9 */
+.section9 {
     background-color: #fff;
 }
 
-.call-action .inner-content {
+.section9 .inner-content {
     position: relative;
     padding: 50px;
     border-radius: 10px;
@@ -1388,56 +1388,56 @@ ol {
     overflow: hidden;
 }
 
-.call-action .inner-content .bg-shape {
+.section9 .inner-content .bg-shape {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
 
-.call-action .text h2 {
+.section9 .text h2 {
     font-size: 28px;
     font-weight: 700;
     line-height: 42px;
     color: #fff;
 }
 
-.call-action .text h2 span {
+.section9 .text h2 span {
     display: block;
     color: #3080E3;
 }
 
-.call-action .button {
+.section9 .button {
     float: right;
 }
 
-.call-action .button .btn {
+.section9 .button .btn {
     background-color: #fff;
     color: #151515;
 }
 
-.call-action .button .btn:hover {
+.section9 .button .btn:hover {
     background-color: #fd723b;
     color: #fff;
 }
 
-.call-action .button .btn.btn-alt:hover {
+.section9 .button .btn.btn-alt:hover {
     background-color: #151515 !important;
 }
 
 /* telefon olcusu */
 @media (max-width: 768px) {
-    .call-action .inner-content {
+    .section9 .inner-content {
         padding: 30px;
         text-align: center;
     }
 
-    .call-action .text h2 {
+    .section9 .text h2 {
         font-size: 22px;
         line-height: 32px;
     }
 
-    .call-action .btn-mobile {
+    .section9 .btn-mobile {
         display: flex;
         justify-content: center;
         align-items: center;
